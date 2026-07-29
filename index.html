@@ -20,18 +20,18 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <a class="logo" href="./index.html">yachjet</a>
       <nav>
         <ul class="navigation">
           <li class="navigation-item">
-            <a class="navigation-link" href="#">About</a>
+            <a class="navigation-link" href="#about-us">About</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">Yachts</a>
+            <a class="navigation-link" href="#yachts">Yachts</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">Reviews</a>
+            <a class="navigation-link" href="#rewievs">Reviews</a>
           </li>
         </ul>
       </nav>
@@ -78,23 +78,32 @@
         <a class="hero-link" href="#">Yacht rental</a>
       </section>
       <section id="about-us">
-        <h2 class="section-title">
-          YachtJet fleet is here to take you on the ultimate adventure
-        </h2>
-        <p class="about-us-text">
-          From spacious decks to state-of-the-art technology, our yachts are
-          designed to provide the perfect blend of luxury and functionality.
-        </p>
-        <p class="about-us-description">
-          Take a look at our selection below and choose the yacht that matches
-          your needs and preferences.No matter which yacht you choose, our
-          experienced crew will ensure that your journey is smooth and
-          enjoyable. Book now and get ready for an unforgettable adventure on
-          the high seas.
-        </p>
-        <img src="./images/yacht.jpg" alt="yacht" width="400" />
+        <div class="container">
+          <div class="about-wrapper">
+            <div class="about-content-wrapper">
+              <h2 class="section-title">
+                YachtJet fleet is here to take you on the ultimate adventure
+              </h2>
+              <div class="about-text-wrapper">
+                <p class="about-us-text">
+                  From spacious decks to state-of-the-art technology, our yachts
+                  are designed to provide the perfect blend of luxury and
+                  functionality.
+                </p>
+                <p class="about-us-description">
+                  Take a look at our selection below and choose the yacht that
+                  matches your needs and preferences.No matter which yacht you
+                  choose, our experienced crew will ensure that your journey is
+                  smooth and enjoyable. Book now and get ready for an
+                  unforgettable adventure on the high seas.
+                </p>
+              </div>
+            </div>
+            <img src="./images/yacht.jpg" alt="yacht" />
+          </div>
+        </div>
       </section>
-      <sections id="yachts">
+      <section id="yachts">
         <h2 class="section-title">
           Choose your dream yacht and sail away into the sunset
         </h2>
@@ -183,7 +192,7 @@
           </li>
         </ul>
         <a href="#" class="yacht-link">Yacht rental</a>
-      </sections>
+      </section>
       <section>
         <h2 class="sr-only">Benefits</h2>
         <ul>
