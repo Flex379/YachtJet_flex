@@ -2,3 +2,23 @@
   display: flex;
   gap: 8px;
 }
+
+.social-link {
+  width: 24px;
+  height: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #1b414b;
+}
+
+.social-link:hover,
+.social-link:focus {
+  color: #062730;
+}
+
+.social-link svg {
+  fill: currentColor;
+}
